@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53684922BA3FB4358C4B61DC /* Pods_Eyenak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C3452129D7F1AE2B29B90D /* Pods_Eyenak.framework */; };
+		8416106020E891D40097C058 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8416105F20E891D40097C058 /* GoogleService-Info.plist */; };
+		8418DF6620F42CF0002AA24F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8418DF6520F42CF0002AA24F /* AudioToolbox.framework */; };
+		843DEB8220F40EF10066637E /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 843DEB8120F40EF00066637E /* labels.txt */; };
+		843DEB8420F40EFE0066637E /* graph.lite in Resources */ = {isa = PBXBuildFile; fileRef = 843DEB8320F40EFD0066637E /* graph.lite */; };
+		843DEB8520F40F1C0066637E /* graph.lite in Sources */ = {isa = PBXBuildFile; fileRef = 843DEB8320F40EFD0066637E /* graph.lite */; };
+		843DEB8620F40F1C0066637E /* labels.txt in Sources */ = {isa = PBXBuildFile; fileRef = 843DEB8120F40EF00066637E /* labels.txt */; };
+		84549F1E20E9F02C00D0FCB7 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84549F1D20E9F02B00D0FCB7 /* 05.jpg */; };
+		84597C7A20F40D1C00641F73 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84597C7920F40D1C00641F73 /* Resnet50.mlmodel */; };
+		845F526E20E4117F0008D69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F526D20E4117F0008D69C /* AppDelegate.swift */; };
+		845F527020E4117F0008D69C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F526F20E4117F0008D69C /* IntroViewController.swift */; };
+		845F527320E4117F0008D69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845F527120E4117F0008D69C /* Main.storyboard */; };
+		845F527520E4117F0008D69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845F527420E4117F0008D69C /* Assets.xcassets */; };
+		845F527820E4117F0008D69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845F527620E4117F0008D69C /* LaunchScreen.storyboard */; };
+		845F528020E417770008D69C /* TextDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F527F20E417770008D69C /* TextDetectionView.swift */; };
+		845F528220E41B170008D69C /* ObjectDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F528120E41B170008D69C /* ObjectDetectionView.swift */; };
+		BF017B6420F2A6970052D048 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF017B6320F2A6970052D048 /* Photos.framework */; };
+		BF017B6620F2A69D0052D048 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF017B6520F2A69D0052D048 /* AVFoundation.framework */; };
+		BF017B6820F2A6A40052D048 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF017B6720F2A6A40052D048 /* CoreMedia.framework */; };
+		BF017B6D20F2A7960052D048 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF017B6B20F2A7960052D048 /* main.mm */; };
+		D204B90322805710004BDD86 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204B90222805710004BDD86 /* UIImage+Helpers.swift */; };
+		D204B90D22833085004BDD86 /* CurrencyDetectionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D204B90C22833085004BDD86 /* CurrencyDetectionView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F3240824A82AB10B80E34FC /* Pods-Eyenak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyenak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak.release.xcconfig"; sourceTree = "<group>"; };
+		30C3452129D7F1AE2B29B90D /* Pods_Eyenak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eyenak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8416105F20E891D40097C058 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8418DF6420F42CF0002AA24F /* Eyenak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eyenak.entitlements; sourceTree = "<group>"; };
+		8418DF6520F42CF0002AA24F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		843DEB8120F40EF00066637E /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		843DEB8320F40EFD0066637E /* graph.lite */ = {isa = PBXFileReference; lastKnownFileType = file; path = graph.lite; sourceTree = "<group>"; };
+		84549F1D20E9F02B00D0FCB7 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		84597C7920F40D1C00641F73 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		845F526A20E4117F0008D69C /* Eyenak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eyenak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845F526D20E4117F0008D69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845F526F20E4117F0008D69C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		845F527220E4117F0008D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845F527420E4117F0008D69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845F527720E4117F0008D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845F527920E4117F0008D69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845F527F20E417770008D69C /* TextDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionView.swift; sourceTree = "<group>"; };
+		845F528120E41B170008D69C /* ObjectDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionView.swift; sourceTree = "<group>"; };
+		BF017B6020F2A0360052D048 /* Eyenak-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eyenak-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF017B6320F2A6970052D048 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		BF017B6520F2A69D0052D048 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF017B6720F2A6A40052D048 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BF017B6B20F2A7960052D048 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		D204B90222805710004BDD86 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+		D204B90B22833085004BDD86 /* CurrencyDetectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyDetectionView.h; sourceTree = "<group>"; };
+		D204B90C22833085004BDD86 /* CurrencyDetectionView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CurrencyDetectionView.mm; sourceTree = "<group>"; };
+		F64A17BCDA2941F3C8A99DF0 /* Pods-Eyenak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyenak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845F526720E4117F0008D69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF017B6820F2A6A40052D048 /* CoreMedia.framework in Frameworks */,
+				BF017B6620F2A69D0052D048 /* AVFoundation.framework in Frameworks */,
+				BF017B6420F2A6970052D048 /* Photos.framework in Frameworks */,
+				8418DF6620F42CF0002AA24F /* AudioToolbox.framework in Frameworks */,
+				53684922BA3FB4358C4B61DC /* Pods_Eyenak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CBCAC7F3111A61B526D245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8418DF6520F42CF0002AA24F /* AudioToolbox.framework */,
+				BF017B6720F2A6A40052D048 /* CoreMedia.framework */,
+				BF017B6520F2A69D0052D048 /* AVFoundation.framework */,
+				BF017B6320F2A6970052D048 /* Photos.framework */,
+				30C3452129D7F1AE2B29B90D /* Pods_Eyenak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845F526120E4117F0008D69C = {
+			isa = PBXGroup;
+			children = (
+				843DEB8320F40EFD0066637E /* graph.lite */,
+				843DEB8120F40EF00066637E /* labels.txt */,
+				845F526C20E4117F0008D69C /* Eyenak */,
+				845F526B20E4117F0008D69C /* Products */,
+				33CBCAC7F3111A61B526D245 /* Frameworks */,
+				8A6A8DEC48A4AAC4B5566D49 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		845F526B20E4117F0008D69C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845F526A20E4117F0008D69C /* Eyenak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845F526C20E4117F0008D69C /* Eyenak */ = {
+			isa = PBXGroup;
+			children = (
+				845F526D20E4117F0008D69C /* AppDelegate.swift */,
+				D204B901228056FE004BDD86 /* Helpers */,
+				D204B908228070D6004BDD86 /* Modules */,
+				BF017B6020F2A0360052D048 /* Eyenak-Bridging-Header.h */,
+				BF017B6B20F2A7960052D048 /* main.mm */,
+				845F527620E4117F0008D69C /* LaunchScreen.storyboard */,
+				845F527120E4117F0008D69C /* Main.storyboard */,
+				845F527920E4117F0008D69C /* Info.plist */,
+				8418DF6420F42CF0002AA24F /* Eyenak.entitlements */,
+				84597C7920F40D1C00641F73 /* Resnet50.mlmodel */,
+				8416105F20E891D40097C058 /* GoogleService-Info.plist */,
+				84549F1D20E9F02B00D0FCB7 /* 05.jpg */,
+				845F527420E4117F0008D69C /* Assets.xcassets */,
+			);
+			path = Eyenak;
+			sourceTree = "<group>";
+		};
+		8A6A8DEC48A4AAC4B5566D49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64A17BCDA2941F3C8A99DF0 /* Pods-Eyenak.debug.xcconfig */,
+				0F3240824A82AB10B80E34FC /* Pods-Eyenak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D204B901228056FE004BDD86 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D204B90222805710004BDD86 /* UIImage+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D204B90422807082004BDD86 /* CurrencyDetection */ = {
+			isa = PBXGroup;
+			children = (
+				D204B90B22833085004BDD86 /* CurrencyDetectionView.h */,
+				D204B90C22833085004BDD86 /* CurrencyDetectionView.mm */,
+			);
+			path = CurrencyDetection;
+			sourceTree = "<group>";
+		};
+		D204B905228070B8004BDD86 /* ObjectDetection */ = {
+			isa = PBXGroup;
+			children = (
+				845F528120E41B170008D69C /* ObjectDetectionView.swift */,
+			);
+			path = ObjectDetection;
+			sourceTree = "<group>";
+		};
+		D204B906228070C5004BDD86 /* TextDetection */ = {
+			isa = PBXGroup;
+			children = (
+				845F527F20E417770008D69C /* TextDetectionView.swift */,
+			);
+			path = TextDetection;
+			sourceTree = "<group>";
+		};
+		D204B907228070CB004BDD86 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				845F526F20E4117F0008D69C /* IntroViewController.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		D204B908228070D6004BDD86 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D204B907228070CB004BDD86 /* Intro */,
+				D204B906228070C5004BDD86 /* TextDetection */,
+				D204B905228070B8004BDD86 /* ObjectDetection */,
+				D204B90422807082004BDD86 /* CurrencyDetection */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845F526920E4117F0008D69C /* Eyenak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845F527C20E4117F0008D69C /* Build configuration list for PBXNativeTarget "Eyenak" */;
+			buildPhases = (
+				4B77908CD2060237CBEDC185 /* [CP] Check Pods Manifest.lock */,
+				845F526620E4117F0008D69C /* Sources */,
+				845F526720E4117F0008D69C /* Frameworks */,
+				845F526820E4117F0008D69C /* Resources */,
+				DA9E76A1EF19176322FA29DD /* [CP] Embed Pods Frameworks */,
+				2878809F10EBF0500481364E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eyenak;
+			productName = grad_proj;
+			productReference = 845F526A20E4117F0008D69C /* Eyenak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845F526220E4117F0008D69C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					845F526920E4117F0008D69C = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 845F526520E4117F0008D69C /* Build configuration list for PBXProject "Eyenak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845F526120E4117F0008D69C;
+			productRefGroup = 845F526B20E4117F0008D69C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845F526920E4117F0008D69C /* Eyenak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845F526820E4117F0008D69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84549F1E20E9F02C00D0FCB7 /* 05.jpg in Resources */,
+				843DEB8420F40EFE0066637E /* graph.lite in Resources */,
+				843DEB8220F40EF10066637E /* labels.txt in Resources */,
+				845F527820E4117F0008D69C /* LaunchScreen.storyboard in Resources */,
+				8416106020E891D40097C058 /* GoogleService-Info.plist in Resources */,
+				845F527520E4117F0008D69C /* Assets.xcassets in Resources */,
+				845F527320E4117F0008D69C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2878809F10EBF0500481364E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B77908CD2060237CBEDC185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eyenak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9E76A1EF19176322FA29DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eyenak/Pods-Eyenak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845F526620E4117F0008D69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843DEB8520F40F1C0066637E /* graph.lite in Sources */,
+				843DEB8620F40F1C0066637E /* labels.txt in Sources */,
+				D204B90322805710004BDD86 /* UIImage+Helpers.swift in Sources */,
+				84597C7A20F40D1C00641F73 /* Resnet50.mlmodel in Sources */,
+				D204B90D22833085004BDD86 /* CurrencyDetectionView.mm in Sources */,
+				845F528020E417770008D69C /* TextDetectionView.swift in Sources */,
+				845F527020E4117F0008D69C /* IntroViewController.swift in Sources */,
+				BF017B6D20F2A7960052D048 /* main.mm in Sources */,
+				845F528220E41B170008D69C /* ObjectDetectionView.swift in Sources */,
+				845F526E20E4117F0008D69C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845F527120E4117F0008D69C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845F527220E4117F0008D69C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845F527620E4117F0008D69C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845F527720E4117F0008D69C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845F527A20E4117F0008D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845F527B20E4117F0008D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845F527D20E4117F0008D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64A17BCDA2941F3C8A99DF0 /* Pods-Eyenak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Eyenak/Eyenak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZWHL8ZBKL;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"'${SRCROOT}/Pods/TensorFlowLite/Frameworks/tensorflow_lite.framework/Headers'",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMLModelInterpreter\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMLVision\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMobileVision\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/TensorFlowLite\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(inherited)",
+					"non-recursive",
+				);
+				INFOPLIST_FILE = Eyenak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noorhashem.grading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eyenak/Eyenak-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT} recursive";
+			};
+			name = Debug;
+		};
+		845F527E20E4117F0008D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3240824A82AB10B80E34FC /* Pods-Eyenak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Eyenak/Eyenak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZWHL8ZBKL;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"'${SRCROOT}/Pods/TensorFlowLite/Frameworks/tensorflow_lite.framework/Headers'",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMLModelInterpreter\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMLVision\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMobileVision\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/TensorFlowLite\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(inherited)",
+					"non-recursive",
+				);
+				INFOPLIST_FILE = Eyenak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noorhashem.grading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eyenak/Eyenak-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT} recursive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845F526520E4117F0008D69C /* Build configuration list for PBXProject "Eyenak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845F527A20E4117F0008D69C /* Debug */,
+				845F527B20E4117F0008D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845F527C20E4117F0008D69C /* Build configuration list for PBXNativeTarget "Eyenak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845F527D20E4117F0008D69C /* Debug */,
+				845F527E20E4117F0008D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845F526220E4117F0008D69C /* Project object */;
+}
