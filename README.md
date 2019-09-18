@@ -1,4 +1,4 @@
-# iOS App With Brains
+# Spectacular, an iOS App With Brains
 
 A Tensorflow / CoreML powered iOS app for aiding the visually impaired.
 
