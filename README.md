@@ -1,16 +1,14 @@
 # Spectacular, an iOS App with the brains to aid the visually impaired.
 
-A Tensorflow / CoreML powered iOS app for aiding the visually impaired.
+A Tensorflow / CoreML powered iOS app for aiding the visually impaired utilizing the power of machine learning.
 
-Object, Text and currency detector using neural networks for the Visually impaired.
-
-It’s a mobile app that utilizes the power of machine learning to aid the visually impaired.
+An Object, Text and currency detectors using neural networks are the clockwork behind this app's functionalities.
 
 
 Video for the app in operation 
 https://www.youtube.com/watch?v=EdzhPSVAQDg
 
-Tools Used: Swift, Firebase, Tensorflow
+Tools Used: Swift, Firebase, Tensorflow, CoreML.
 
 It has 3 features : 
 - Currency Detection
