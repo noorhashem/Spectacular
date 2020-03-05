@@ -25,3 +25,13 @@ It detects those 3 types of inputs and voices their labels for the blind person.
 
 Find Full Documentation series here : 
 https://medium.com/@noorhashem/build-a-mobile-app-with-a-using-tensorflow-coreml-prt-1-6d0ca883e664
+
+
+
+# Next Steps :
+
+- [ ] Finish the 
+- [ ] Add Support for Arabic (and other languages) Text Extraction
+- [ ] Add Support for other currencies ( Suggestions are open)
+- [ ] Add support for Color detection
+
