@@ -30,8 +30,8 @@ https://medium.com/@noorhashem/build-a-mobile-app-with-a-using-tensorflow-coreml
 
 # Next Steps :
 
-- [ ] Finish the 
+- [ ] User Testing
 - [ ] Add Support for Arabic (and other languages) Text Extraction
-- [ ] Add Support for other currencies ( Suggestions are open)
+- [ ] Add Support for other currencies (Suggestions are open)
 - [ ] Add support for Color detection
 
