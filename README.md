@@ -30,6 +30,7 @@ https://medium.com/@noorhashem/build-a-mobile-app-with-a-using-tensorflow-coreml
 
 # Next Steps :
 
+- [ ] Train a better accuracy compact model for currency detection
 - [ ] User Testing
 - [ ] Add Support for Arabic (and other languages) Text Extraction
 - [ ] Add Support for other currencies (Suggestions are open)
