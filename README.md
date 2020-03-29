@@ -4,6 +4,7 @@ A Tensorflow / CoreML powered iOS app for aiding the visually impaired utilizing
 
 An Object, Text and currency detectors using neural networks are the clockwork behind this app's functionalities.
 
+<img src="/Screens/SplashScreen.jpg" height = "400" align = "center">
 
 Video for the app in operation 
 https://www.youtube.com/watch?v=EdzhPSVAQDg
