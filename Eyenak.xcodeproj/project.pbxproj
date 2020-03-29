@@ -14,7 +14,6 @@
 		843DEB8420F40EFE0066637E /* graph.lite in Resources */ = {isa = PBXBuildFile; fileRef = 843DEB8320F40EFD0066637E /* graph.lite */; };
 		843DEB8520F40F1C0066637E /* graph.lite in Sources */ = {isa = PBXBuildFile; fileRef = 843DEB8320F40EFD0066637E /* graph.lite */; };
 		843DEB8620F40F1C0066637E /* labels.txt in Sources */ = {isa = PBXBuildFile; fileRef = 843DEB8120F40EF00066637E /* labels.txt */; };
-		84549F1E20E9F02C00D0FCB7 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84549F1D20E9F02B00D0FCB7 /* 05.jpg */; };
 		84597C7A20F40D1C00641F73 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84597C7920F40D1C00641F73 /* Resnet50.mlmodel */; };
 		845F526E20E4117F0008D69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F526D20E4117F0008D69C /* AppDelegate.swift */; };
 		845F527020E4117F0008D69C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F526F20E4117F0008D69C /* IntroViewController.swift */; };
@@ -39,7 +38,6 @@
 		8418DF6520F42CF0002AA24F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		843DEB8120F40EF00066637E /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
 		843DEB8320F40EFD0066637E /* graph.lite */ = {isa = PBXFileReference; lastKnownFileType = file; path = graph.lite; sourceTree = "<group>"; };
-		84549F1D20E9F02B00D0FCB7 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
 		84597C7920F40D1C00641F73 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		845F526A20E4117F0008D69C /* Eyenak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eyenak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F526D20E4117F0008D69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				8418DF6420F42CF0002AA24F /* Eyenak.entitlements */,
 				84597C7920F40D1C00641F73 /* Resnet50.mlmodel */,
 				8416105F20E891D40097C058 /* GoogleService-Info.plist */,
-				84549F1D20E9F02B00D0FCB7 /* 05.jpg */,
 				845F527420E4117F0008D69C /* Assets.xcassets */,
 			);
 			path = Eyenak;
@@ -276,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84549F1E20E9F02C00D0FCB7 /* 05.jpg in Resources */,
 				843DEB8420F40EFE0066637E /* graph.lite in Resources */,
 				843DEB8220F40EF10066637E /* labels.txt in Resources */,
 				845F527820E4117F0008D69C /* LaunchScreen.storyboard in Resources */,
