@@ -10,12 +10,12 @@ Video for the app in operation
 https://www.youtube.com/watch?v=EdzhPSVAQDg
 
 Tools Used: Swift, Firebase, Tensorflow, CoreML.
+Navigation in the app relies on tapping and gestures acompanied by voice instructions.
 
 It has 3 features : 
 - Currency Detection
 - General Objects Detection
 - OCR Text Extraction
-
 It detects those 3 types of inputs and voices their labels for the user.
 
 1- For the currency detector, custom trained models using Tensorflow were used to detect currencies, trained on Nvidia GPUs , optimized and deployed on Mobile phones. the output of the Detection is then voiced over using text-to-speech engine.
