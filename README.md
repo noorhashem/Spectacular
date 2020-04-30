@@ -10,6 +10,7 @@ Video for the app in operation
 https://www.youtube.com/watch?v=EdzhPSVAQDg
 
 Tools Used: Swift, Firebase, Tensorflow, CoreML.
+
 Navigation in the app relies on tapping and gestures acompanied by voice instructions.
 
 It has 3 features : 
