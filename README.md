@@ -24,8 +24,11 @@ It detects those 3 types of inputs and voices their labels for the user.
 
 3- As for the third feature, it captures images of text from books, packages, signs and voices them over as well, the OCR feature is deployed on the cloud using Firebase ML Kit API functions.
 
-Find Full Documentation series here : 
-https://medium.com/@noorhashem/build-a-mobile-app-with-a-using-tensorflow-coreml-prt-1-6d0ca883e664
+Find Documentation blog here : 
+<a href="https://medium.com/@noorhashem/build-a-mobile-app-with-a-using-tensorflow-coreml-prt-1-6d0ca883e664"> Link </a>
+
+Presentation: 
+<a href="https://docs.google.com/presentation/d/13y_IoZEGC71U6F-s98SA46QYBfuW3MksjTb7REPmUJQ/edit#slide=id.g711b6b049b_0_379"> Link </a>
 
 
 
